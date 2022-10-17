@@ -1,0 +1,13 @@
+body {
+		background-color: skyblue;
+	}
+	h1 {
+		color: blue;
+		text-align: centre;
+	}
+	p {
+		color: green;
+		text-align: centre;
+		font-style: italic;
+	}
+}

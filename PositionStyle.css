@@ -1,0 +1,43 @@
+#rel1 {
+	/*setting the relative positin style */
+	position: relative;
+	left: 30px;
+	border: 10px solid green;
+}
+
+#fix {
+	/*setting the fix positin style 
+		It will lie at the bottom right of the screen*/
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	border: 10 solid yellow;
+	}
+
+#rel2 { 
+	/*setting the relative position the container of the absolute element*/
+	position: relative;
+	width: 30%;
+	height: 50%;
+
+	border: 10px solid red;
+ }
+
+ #rel3 { 
+	/*setting the relative position the container of the absolute element*/
+	position: relative;
+	width: 40%;
+	height: 60%;
+
+	border: 10px solid red;
+ }
+
+ #abs{
+ 	/* Setting the absolute position style It will lie inside the container rel2*/
+ 	position: sticky;
+ 	top: 0;
+ 	padding: 5px;
+ 	background-color: aqua;
+ 	border:  10px solid blue;
+ }
